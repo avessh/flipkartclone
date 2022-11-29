@@ -1,0 +1,19 @@
+#discount-banner-parent-div{
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+
+}
+
+#discount-banner-img{
+    width: 100%;
+}
+
+@media screen and (min-width: 500) {
+    #discount-banner-parent-div{
+      display: none;
+    }
+    #discount-banner-img{
+        display: none;
+    }
+  }

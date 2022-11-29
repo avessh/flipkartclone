@@ -1,0 +1,144 @@
+#flipkar-logo-box{
+    margin-left: 11.5%;
+    
+}
+
+#flipkart-plus-box{
+    display: flex;
+}
+
+#flipkart-logo-below-text{
+line-height: 0.5;
+font-size: 11px;
+font-style: italic;
+}
+
+#flipkart-plus-img{
+    width: 10px;
+    margin-top: -0.55vh;
+    margin-left: 3px;
+}
+
+#flipkartplus{
+    color: #FFE500;
+}
+
+#appbar{
+    height:56px;
+    background-color: rgb(62, 114,232);
+}
+
+#toolbar{
+    min-height: 55px;
+    border: 1px solid rgb(62, 114,232);
+}
+
+#search_div{
+    background-color: #fff;
+    width: 38%;
+    border-radius: 2px;
+    margin-left: 11px;
+    display: flex;
+}
+
+#search{
+    padding-left:10px !important;
+    width: 66vh;
+    font-size: unset;
+}
+
+#searchicon{
+    color: rgb(62, 114,232);
+    padding: 5px 5px 2px 2px;
+}
+
+#search-list{
+    position: absolute;
+    background-color: white;
+    color: black;
+    margin-top: 36px;
+}
+
+#btn-div{
+    display: flex;
+    margin: 0 0 0 10%;
+    
+    
+}
+
+.nav-btns{
+    margin-right: 3% 0 0 3%;
+    font-size: 16px;
+    width: 165px;
+    align-items: center;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+
+#cart{
+    margin-left: -8vh;
+    display: flex;
+    align-items: center;
+}
+
+#login-btn{
+    color: rgb(62, 114,232);
+    background-color: #fff;
+    text-transform: none;
+    font-weight: 530px;
+  
+    padding:5px 10px;
+    border: 2px solid rgb(62, 114,232) ;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: auto;
+    height: 4.40vh;
+    width: 17vh;
+    margin-left: -6%;
+}
+
+#seller{
+    margin-left:50px;
+}
+
+#menuBtn{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    #btn-div{
+        display: none;
+    }
+
+    #menuBtn{
+        display: block;
+    }
+
+    #menu-items{
+        display: block;
+    }
+    #seller{
+        margin-left:0px;
+    }
+    #cart{
+        margin-left: -0px;
+        display: flex;
+        align-items: center;
+    }
+
+    #search_div{
+        width: 48%;
+        margin-left: 11px;
+    }
+    
+
+    #search{
+        padding-left:10px !important;
+        width: 24vh;
+        font-size: unset;
+        font-size: 14px;
+    }
+   
+    
+  }

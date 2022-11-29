@@ -1,0 +1,76 @@
+#dialog-main-div{
+    height: 70vh;
+    width: 90vh;
+    display: flex;
+    overflow-y: hidden
+}
+
+#login-img-div{
+    background: rgb(62, 114,232) url('https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png') center 70% no-repeat;
+    padding: 45px 35px;
+    width: 40%;
+    height: 100% !important;
+    color: white;
+    
+}
+
+#blue-div-text{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#login-div{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 35px;
+    /* flex: 10; */
+    margin-top: 20px;
+}
+
+#term-text{
+    margin-top: 20px !important;
+    font-size: 12px;
+    color: #878787;
+}
+
+#login-btn-dialog {
+    margin-top: 20px !important;
+    text-transform: none;
+    background: #FB641B;
+    color: white;
+    height: 48px !important;
+    border-radius: 2px;
+}
+
+#request-otp-btn{
+    margin-top: 20px !important;
+    text-transform: none;
+    background: #fff;
+    color: #2874f0;
+    height: 48px !important;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0, 0, 0,  20%);
+}
+
+#create-account-text{
+    margin-top: 100px !important;
+    font-size: 14px;
+    text-align: center;
+    color: #2874f0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#or-text{
+    text-align: center;
+    margin-top: 20px !important;
+}
+
+#error{
+    font-size: 10px;
+    color: #ff6161;
+    line-height: 0px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,37 @@
+#productNavMainDiv{
+    display: flex;
+    margin: 55px 90px 0 90px;
+    justify-content: space-between;
+}
+
+#productNavImg{
+    width: 64px;
+}
+
+#productNavComponents{
+    padding: 12px 8px;
+    text-align: center;
+}
+
+#productDetail{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit
+}
+
+#components{
+    padding: 10px;
+    background-color: rgb(240, 242, 245);
+}
+
+@media screen and (max-width: 904px) {
+  
+    #productNavMainDiv{
+       margin: 0px;
+       overflow: overlay;
+    }
+    #productNavComponents{
+        margin: 0px;
+    }
+    
+  }

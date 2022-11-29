@@ -1,0 +1,11 @@
+#basic-menu{
+    margin-top: 10px;
+    width: 60vh !important;
+    
+}
+
+#logout{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
